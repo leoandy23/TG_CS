@@ -1,5 +1,5 @@
 def numero_a_kichwa(numero):
-    unidades = ['', 'shuk', 'ishkay', 'kimsa', 'tawa', 'pichka', 'sukta', 'kanchis', 'pichka kimsa', 'pichka tawa']
+    unidades = ['', 'shuk', 'ishkay', 'kimsa', 'tawa', 'pichka', 'sukta', 'kanchi', 'pichka kimsa', 'pichka tawa']
     decenas = ['', 'chunka', 'ishkay chunka', 'kimsa chunka', 'tawa chunka', 'pichka chunka', 'sukta chunka', 'pichka ishkay chunka', 'pichka kimsa chunka', 'pichka tawa chunka']
     centenas = ['', 'chunka huasi', 'ishkay chunka huasi', 'kimsa chunka huasi', 'tawa chunka huasi', 'pichka chunka huasi', 'sukta chunka huasi', 'pichka ishkay chunka huasi', 'pichka kimsa chunka huasi', 'pichka tawa chunka huasi']
     miles = ['', 'chunka kallari', 'ishkay chunka kallari', 'kimsa chunka kallari', 'tawa chunka kallari', 'pichka chunka kallari', 'sukta chunka kallari', 'pichka ishkay chunka kallari', 'pichka kimsa chunka kallari', 'pichka tawa chunka kallari']
