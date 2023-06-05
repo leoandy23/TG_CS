@@ -1,8 +1,8 @@
 def numero_a_kichwa(numero):
-    unidades = ['', 'shuk', 'ishkay', 'kimsa', 'tawa', 'pichka', 'sukta', 'kanchi', 'pichka kimsa', 'pichka tawa']
-    decenas = ['', 'chunka', 'ishkay chunka', 'kimsa chunka', 'tawa chunka', 'pichka chunka', 'sukta chunka', 'pichka ishkay chunka', 'pichka kimsa chunka', 'pichka tawa chunka']
-    centenas = ['', 'chunka huasi', 'ishkay chunka huasi', 'kimsa chunka huasi', 'tawa chunka huasi', 'pichka chunka huasi', 'sukta chunka huasi', 'pichka ishkay chunka huasi', 'pichka kimsa chunka huasi', 'pichka tawa chunka huasi']
-    miles = ['', 'chunka kallari', 'ishkay chunka kallari', 'kimsa chunka kallari', 'tawa chunka kallari', 'pichka chunka kallari', 'sukta chunka kallari', 'pichka ishkay chunka kallari', 'pichka kimsa chunka kallari', 'pichka tawa chunka kallari']
+    unidades = ['', 'shuk', 'ishkay', 'kimsa', 'chusku', 'pichka', 'shukta', 'kanchis', 'pushak', 'ishkun']
+    decenas = ['', 'chunka', 'ishkay chunka', 'kimsa chunka', 'chusku chunka', 'pichka chunka', 'sukta chunka', 'kanchis chunka', 'pusak chunka', 'iskun chunka']
+    centenas = ['', 'patsak', 'ishkay patsak', 'kimsa patsak', 'chusku patsak', 'pichka patsak', 'sukta patsak', 'kanchis patsak', 'pusak patsak', 'iskun patsak']
+    miles = ['', 'waranka', 'ishkay waranka', 'kimsa waranka', 'chusku waranka', 'pichka waranka', 'sukta waranka', 'kanchis waranka', 'pusak waranka', 'iskun waranka']
 
     if numero == 0:
         return 'shuk'
