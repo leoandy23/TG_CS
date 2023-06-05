@@ -1,4 +1,5 @@
 def numero_a_kichwa(numero):
+    # Cambio de palabras
     unidades = ['', 'shuk', 'ishkay', 'kimsa', 'chusku', 'pichka', 'shukta', 'kanchis', 'pushak', 'ishkun']
     decenas = ['', 'chunka', 'ishkay chunka', 'kimsa chunka', 'chusku chunka', 'pichka chunka', 'sukta chunka', 'kanchis chunka', 'pusak chunka', 'iskun chunka']
     centenas = ['', 'patsak', 'ishkay patsak', 'kimsa patsak', 'chusku patsak', 'pichka patsak', 'sukta patsak', 'kanchis patsak', 'pusak patsak', 'iskun patsak']
