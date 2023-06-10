@@ -9,13 +9,13 @@ class TestMyModule(unittest.TestCase):
         self.assertEqual(resultado,'kanchis')
 
         resultado = Traductor.numero_a_kichwa(59)
-        self.assertEqual(resultado, 'pichka chunka ishkun')
+        self.assertEqual(resultado, 'pichka chunka iskun')
         
         resultado = Traductor.numero_a_kichwa(864)
         self.assertEqual(resultado, 'pusak patsak sukta chunka chusku')
 
         resultado = Traductor.numero_a_kichwa(3201)
-        self.assertEqual(resultado, 'kimsa waranka ishkay patsak  shuk')
-
+        self.assertEqual(resultado, 'kimsa waranka ishkay patsak shuk')
+        
 if __name__ == '__main__':
     unittest.main()
