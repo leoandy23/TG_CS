@@ -5,7 +5,7 @@ class Traductor():
     def numero_a_kichwa(numero):
         # Cambio de palabras
         unidades = ['illak', 'shuk', 'ishkay', 'kimsa', 'chusku', 'pichka', 'sukta', 'kanchis', 'pusak', 'iskun']
-        long = ['',' chunka',' patsak',' waranka']
+        modificadorPosicion = ['',' chunka',' patsak',' waranka']
 
         try:
             numero_int = int(numero) # Verificación de tipo de dato entero
@@ -21,7 +21,7 @@ class Traductor():
                     if (int(numero_str[i])!=0):
                         if (i!=0):
                             resultado += " "
-                        resultado +=  unidades[int(numero_str[i])] + long[longitud-1-i]
+                        resultado +=  unidades[int(numero_str[i])] + modificadorPosicion[longitud-1-i]
                     
                 return resultado
             else:
