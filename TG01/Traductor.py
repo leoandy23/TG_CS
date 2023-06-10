@@ -10,7 +10,7 @@ class Traductor():
         try:
             numero_int = int(numero) # Verificación de tipo de dato entero
             if numero_int == 0:
-                return unidades[int(numero_str[0])]
+                return unidades[0]
             if numero_int > 0 and numero_int <= 9999: # Verificación de rango
                 numero_str = str(numero_int)
                 longitud = len(numero_str)
