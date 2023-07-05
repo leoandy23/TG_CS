@@ -46,8 +46,9 @@ class Traductor:
                             if (
                                 int(numero_str[i]) == 1 and i != longitud - 1
                             ):  # Controlar 1, 10, 100 y 1000
-                                resultado = resultado 
-                                + modificador_posicion[longitud - 1 - i][1:]
+                                resultado += (
+                                    modificador_posicion[longitud - 1 - i][1:]
+                                )
                                 continue
                             resultado += (
                                 unidades[int(numero_str[i])]
