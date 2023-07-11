@@ -1,9 +1,20 @@
+"""
+    Módulo para testear la traducción números enteros en Kichwa
+"""
+
 import unittest
-from Traductor import Traductor
+from traductor import Traductor
 
 
 class TestMyModule(unittest.TestCase):
+    """
+    Clase de pruebas para el módulo Traductor
+    """
+
     def test_numero_kichwa(self):
+        """
+        Prueba para la función numero_a_kichwa
+        """
         resultado = Traductor.numero_a_kichwa(7)
         self.assertEqual(resultado, "kanchis")
 
