@@ -24,9 +24,10 @@ class Traductor:
         modificador_posicion = ["", " chunka", " patsak", " waranka"]
 
         try:
-            if len(numero) != 0:
-                numero = numero.replace(',', '.')
-                numero_float = float(numero)  # Verificación de tipo de dato
+            numero_str = str(numero)
+            if len(numero_str) != 0:
+                numero_str = numero_str.replace(',', '.')
+                numero_float = float(numero_str)  # Verificación de tipo de dato
                 if not numero_float.is_integer():
                     print("El número decimal se trunca")
                 numero_int = int(numero_float)
